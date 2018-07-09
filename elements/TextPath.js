@@ -71,7 +71,3 @@ export default class extends Shape {
         return <TSpan>{children}</TSpan>;
     }
 }
-
-const RNSVGTextPath = requireNativeComponent("RNSVGTextPath", null, {
-    nativeOnly: TextPathAttributes
-});

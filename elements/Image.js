@@ -58,7 +58,3 @@ export default class extends Shape {
         );
     }
 }
-
-const RNSVGImage = requireNativeComponent("RNSVGImage", null, {
-    nativeOnly: ImageAttributes
-});

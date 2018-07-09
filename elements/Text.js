@@ -56,7 +56,3 @@ export default class extends Shape {
         );
     }
 }
-
-const RNSVGText = requireNativeComponent("RNSVGText", null, {
-    nativeOnly: TextAttributes
-});

@@ -42,11 +42,3 @@ export default class extends Component {
         );
     }
 }
-
-const RNSVGRadialGradient = requireNativeComponent(
-    "RNSVGRadialGradient",
-    null,
-    {
-        nativeOnly: RadialGradientAttributes
-    }
-);

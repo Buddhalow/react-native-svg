@@ -17,7 +17,3 @@ export default class extends Component {
         );
     }
 }
-
-const RNSVGClipPath = requireNativeComponent("RNSVGClipPath", null, {
-    nativeOnly: ClipPathAttributes
-});

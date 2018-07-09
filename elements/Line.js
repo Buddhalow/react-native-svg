@@ -43,7 +43,3 @@ export default class extends Shape {
         );
     }
 }
-
-const RNSVGLine = requireNativeComponent("RNSVGLine", null, {
-    nativeOnly: LineAttributes
-});

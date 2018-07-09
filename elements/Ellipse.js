@@ -44,7 +44,3 @@ export default class extends Shape {
         );
     }
 }
-
-const RNSVGEllipse = requireNativeComponent("RNSVGEllipse", null, {
-    nativeOnly: EllipseAttributes
-});

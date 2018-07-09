@@ -109,13 +109,3 @@ class Svg extends Component {
         );
     }
 }
-
-const NativeSvgView = requireNativeComponent("RNSVGSvgView", null, {
-    nativeOnly: {
-        ...ViewBoxAttributes,
-        width: true,
-        height: true
-    }
-});
-
-export default Svg;

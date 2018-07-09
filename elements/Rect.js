@@ -58,7 +58,3 @@ export default class extends Shape {
         );
     }
 }
-
-const RNSVGRect = requireNativeComponent("RNSVGRect", null, {
-    nativeOnly: RectAttributes
-});

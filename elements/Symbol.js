@@ -21,7 +21,3 @@ export default class extends Component {
         );
     }
 }
-
-const RNSVGSymbol = requireNativeComponent("RNSVGSymbol", null, {
-    nativeOnly: SymbolAttributes
-});

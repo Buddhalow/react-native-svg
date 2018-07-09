@@ -60,7 +60,3 @@ export default class extends Shape {
         );
     }
 }
-
-const RNSVGUse = requireNativeComponent("RNSVGUse", null, {
-    nativeOnly: UseAttributes
-});

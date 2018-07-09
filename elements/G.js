@@ -34,7 +34,3 @@ export default class extends Shape {
         );
     }
 }
-
-const RNSVGGroup = requireNativeComponent("RNSVGGroup", null, {
-    nativeOnly: GroupAttributes
-});

@@ -8,7 +8,3 @@ export default class extends Component {
         return <RNSVGDefs>{this.props.children}</RNSVGDefs>;
     }
 }
-
-const RNSVGDefs = requireNativeComponent("RNSVGDefs", null, {
-    nativeOnly: {}
-});

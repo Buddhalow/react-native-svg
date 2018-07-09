@@ -40,7 +40,3 @@ export default class extends Shape {
         );
     }
 }
-
-const RNSVGCircle = requireNativeComponent("RNSVGCircle", null, {
-    nativeOnly: CircleAttributes
-});

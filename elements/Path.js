@@ -32,7 +32,3 @@ export default class extends Shape {
         );
     }
 }
-
-const RNSVGPath = requireNativeComponent("RNSVGPath", null, {
-    nativeOnly: PathAttributes
-});

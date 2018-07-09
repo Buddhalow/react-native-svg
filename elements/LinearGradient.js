@@ -36,11 +36,3 @@ export default class extends Component {
         );
     }
 }
-
-const RNSVGLinearGradient = requireNativeComponent(
-    "RNSVGLinearGradient",
-    null,
-    {
-        nativeOnly: LinearGradientAttributes
-    }
-);

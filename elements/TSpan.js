@@ -56,7 +56,3 @@ export default class extends Shape {
         );
     }
 }
-
-const RNSVGTSpan = requireNativeComponent("RNSVGTSpan", null, {
-    nativeOnly: TSpanAttibutes
-});

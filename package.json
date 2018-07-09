@@ -1,10 +1,10 @@
 {
     "version": "6.4.1",
-    "name": "react-native-svg",
+    "name": "react-native-svg-exponent-fix",
     "description": "SVG library for react-native",
     "repository": {
         "type": "git",
-        "url": "https://github.com/magicismight/react-native-svg"
+        "url": "https://github.com/Buddhalow/react-native-svg-exponent-fix"
     },
     "license": "MIT",
     "main": "./index.js",
